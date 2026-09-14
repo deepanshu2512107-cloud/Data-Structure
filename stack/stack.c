@@ -36,7 +36,7 @@ void peek() //! peek
     printf("top is %d\n", stack[top]);
 }
 
-void display()
+void display() //! display
 {
     if (top == -1)
     {
@@ -57,7 +57,8 @@ int main()
     // push(3);
     // push(2);
     // push(1);
-    for(int i=1;i<=10;i++){
+    for (int i = 1; i <= 10; i++)
+    {
         push(i);
     }
     printf("Initially\n");
