@@ -52,11 +52,6 @@ void display() //! display
 
 int main()
 {
-    // push(5);
-    // push(4);
-    // push(3);
-    // push(2);
-    // push(1);
     for (int i = 1; i <= 10; i++)
     {
         push(i);
